@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: Default
+    runs-on: [self-hosted, windows]
 
     steps:
       - name: Checkout code
