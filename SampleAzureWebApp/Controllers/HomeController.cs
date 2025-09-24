@@ -18,6 +18,12 @@ namespace SampleAzureWebApp.Controllers
             return View();
         }
 
+        public IActionResult Career()
+        {
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
